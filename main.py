@@ -40,8 +40,8 @@ async def main():
         ),
         data_clients={
             "BYBIT": BybitDataClientConfig(
-                api_key='SOZmIqZa34cNCFY6Rh',  # 'BYBIT_API_KEY' env var
-                api_secret='H6YL1Lu6Yg97UykTOVrKuMSALbWWVmDcsNuQ',  # 'BYBIT_API_SECRET' env var
+                api_key='',  # 'BYBIT_API_KEY' env var
+                api_secret='',  # 'BYBIT_API_SECRET' env var
                 base_url_http=None,  # Override with custom endpoint
                 instrument_provider=InstrumentProviderConfig(load_all=True),
                 product_types=[product_type],
@@ -50,8 +50,8 @@ async def main():
         },
         exec_clients={
             "BYBIT": BybitExecClientConfig(
-                api_key='SOZmIqZa34cNCFY6Rh',  # 'BYBIT_API_KEY' env var
-                api_secret='H6YL1Lu6Yg97UykTOVrKuMSALbWWVmDcsNuQ',  # 'BYBIT_API_SECRET' env var
+                api_key='',  # 'BYBIT_API_KEY' env var
+                api_secret='',  # 'BYBIT_API_SECRET' env var
                 base_url_http=None,  # Override with custom endpoint
                 # base_url_ws_private=None,  # Override with custom endpoint
                 instrument_provider=InstrumentProviderConfig(load_all=True),
